@@ -18,20 +18,20 @@ You can also read the reviews on [OpenReview](https://openreview.net/forum?id=zE
 }
 ```
 
-# Reproducing Experiments
-## Dependencies
+## Reproducing Experiments
+### Dependencies
  
  We use Python 3.8 and ``pytorch`` for training neural nets, please use 
  ``pip install -r requirements.txt`` (potentially in
  a virtual environment) to install dependencies.
 
-## Datasets
+### Datasets
 
   We use a dataset of geometric shapes (GeoMNIST) we constructed as well as CIFAR-10.
   GeoMNIST is lightweighted and will be generated when simulation runs; CIFAR-10 will
   be downloaded from ``torchvision``.
 
-## Code Structure
+### Code Structure
   
   After instsalling the dependencies, one may navigate through the two
   Jupyter notebooks for running experiments and producing plots and figures.
@@ -56,9 +56,9 @@ You can also read the reviews on [OpenReview](https://openreview.net/forum?id=zE
 
   More info regarding ``npy`` files can be found in the [``numpy`` documentation](https://numpy.org/doc/stable/reference/generated/numpy.lib.format.html).
 
-# Reproducing Figures
+## Reproducing Figures
 
-## Experiment Data
+### Experiment Data
 
   Although all simulations can be run on your machine, it is quite time-consuming.
   Data from our experiments can be downloaded from the following **anonymous** Dropbox links:
@@ -70,7 +70,7 @@ You can also read the reviews on [OpenReview](https://openreview.net/forum?id=zE
   variable in the notebooks accordingly).
 
   
-## Plotter
+### Plotter
 
   Once experiment data are ready, simply follow ``LE-SDE Data Analysis.ipynb`` for
   reproducing all figures.
